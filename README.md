@@ -1,8 +1,7 @@
 # devgaido_devop
 # [![devGaido version][devgaido-image]][devgaido-url]
 
-[Overview](#overview) | [Development](#development) | [Runtime](#runtime) | [Authors](#authors) |
-[License](#license) | [Release Notes](releasenotes.md)
+[Overview](#overview) | [Services](#services) | [License](#license)
 
 devGaido provides a guided learning experience through the Web Development 
 ecosystem by providing those new to the craft with predefined paths to aid in
@@ -16,8 +15,15 @@ You can find devGaido at [www.devgaido.com](http://www.devgaido.com) and the dev
 
 The devops services used to support the devGaido app include:
 
-- Runtime Architecture
+- Application Runtime
 - Backup & Recovery
 
-## DevOps Services
+## Services
 
+### Application Runtime
+
+### Backup & Recovery
+
+## License
+
+[MIT](https://tldrlegal.com/license/mit-license)
