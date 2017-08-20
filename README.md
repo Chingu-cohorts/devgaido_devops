@@ -1,7 +1,9 @@
-# devgaido_devop
 # [![devGaido][devgaido-image]][devgaido-url]
 
 [Overview](#overview) | [Services](#services) | [License](#license)
+
+
+## Overview
 
 devGaido provides a guided learning experience through the Web Development 
 ecosystem by providing those new to the craft with predefined paths to aid in
@@ -11,22 +13,17 @@ languages.
 
 You can find devGaido at [www.devgaido.com](http://www.devgaido.com) and the  [devGaido application repo](https://github.com/Chingu-cohorts/devgaido).
 
-## Overview
+## Services
 
 The devops services used to support the devGaido app include:
-
-- Application Runtime
-- Backup & Recovery
-
-Issues should be reported on the main GitHub repo for the [devGaido App](https://github.com/Chingu-cohorts/devgaido) sto consolidate all issues in one location. Similarly, wiki entries should be created on the main repo for the same reason.
-
-## Services
 
 | DevOps Service  | Directory | Purpose                           |
 |:----------------|:----------|:----------------------------------|
 | App runtime     | runtime   | Application runtime configuration |
 | Backup          | backup    | Backup scripts and configuration  |
 | Documentation   | docs      | App and DevOps documentation      |
+
+Issues should be reported on the main GitHub repo for the [devGaido App](https://github.com/Chingu-cohorts/devgaido) sto consolidate all issues in one location. Similarly, wiki entries should be created on the main repo for the same reason.
 
 ### Application Runtime
 
