@@ -43,7 +43,7 @@ devGaido easier to deploy and manage.
 
 ### Backup & Recovery 
 
-[[devGaido Backup Architecture]][backuparch-image]
+![devGaido Backup Architecture](https://github.com/Chingu-cohorts/devgaido_devops/blob/refactor/repo/docs/devGaido%20Backup%20Process.png?raw=true)
 
 ### Documentation
 
@@ -53,4 +53,4 @@ devGaido easier to deploy and manage.
 
 [devgaido-image]: https://cdn.rawgit.com/Chingu-cohorts/devgaido/development/src/client/assets/img/devGaidoLogo.svg
 [devgaido-url]: https://github.com/Chingu-cohorts/devgaido
-[backuparch-image]: https://github.com/Chingu-cohorts/devgaido_devops/blob/refactor/repo/docs/devGaido%20Backup%20Process.png?raw=true
+
