@@ -15,6 +15,8 @@ You can find devGaido at [www.devgaido.com](http://www.devgaido.com) and the  [d
 
 ## Services
 
+DevOps services are defined as any function which externally supports the application. In other words, any support function that operates outside the main application, like database backups.
+
 The devops services used to support the devGaido app include:
 
 | DevOps Service  | Directory | Purpose                           |
@@ -45,6 +47,8 @@ devGaido easier to deploy and manage.
 ![devGaido Backup Architecture](https://github.com/Chingu-cohorts/devgaido_devops/blob/refactor/repo/docs/devGaido%20Backup%20Process.png?raw=true)
 
 ### Documentation
+
+All documentation files and diagrams are stored in this repo so as not to pollute the main application repo. The purpose is to keep the generated application bundle size as small as possible.
 
 ## License
 
