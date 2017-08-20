@@ -18,6 +18,8 @@ The devops services used to support the devGaido app include:
 - Application Runtime
 - Backup & Recovery
 
+Issues should be reported on the main GitHub repo for the [devGaido App](https://github.com/Chingu-cohorts/devgaido) sto consolidate all issues in one location. Similarly, wiki entries should be created on the main repo for the same reason.
+
 ## Services
 
 | DevOps Service  | Directory | Purpose                           |
