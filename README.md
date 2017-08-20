@@ -14,7 +14,10 @@ You can find devGaido at [www.devgaido.com](http://www.devgaido.com) and the dev
 
 ## Overview
 
-The devops components used to support the devGaido app include:
+The devops services used to support the devGaido app include:
 
 - Runtime Architecture
 - Backup & Recovery
+
+## DevOps Services
+
