@@ -44,7 +44,9 @@ devGaido easier to deploy and manage.
 
 #### New Release Checklist
 
--	Update release notes
+- Pull changes into the develoment branch
+- Perform a final test using the development branch
+- Update release notes
 - Post the start of maintenance notification on Twitter and in the Chingu Slack channels
 - Logon to the devGaido Vultr console and enter the following commands:
      - `docker-compose stop`
