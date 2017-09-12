@@ -62,7 +62,7 @@ devGaido easier to deploy and manage.
 
 ### Backup & Recovery 
 
-![devGaido Backup Architecture](https://github.com/Chingu-cohorts/devgaido_devops/blob/refactor/repo/docs/devGaido%20Backup%20Process.png?raw=true)
+![devGaido Backup Architecture](https://github.com/Chingu-cohorts/devgaido_devops/blob/development/docs/devGaido%20Backup%20Process.png)
 
 ### Documentation
 
