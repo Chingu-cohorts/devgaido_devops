@@ -40,7 +40,7 @@ necessary to serve up images and other static content.
 and load balancing.
 - Docker: Docker containers house devGaido's application components that make
 devGaido easier to deploy and manage.
-- Gulp: Gulp scripts are used to automate devops operations such as backups, monitoring, and administrator alerting and notification.
+- Bash: Bash scripts are used to automate devops operations such as backups, monitoring, and administrator alerting and notification.
 
 ### Backup & Recovery 
 
