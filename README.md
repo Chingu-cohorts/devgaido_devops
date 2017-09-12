@@ -42,6 +42,24 @@ and load balancing.
 devGaido easier to deploy and manage.
 - Bash: Bash scripts are used to automate devops operations such as backups, monitoring, and administrator alerting and notification.
 
+#### New Release Checklist
+
+- Pull changes into the develoment branch
+- Perform a final test using the development branch
+- Update release notes
+- Post the start of maintenance notification on Twitter and in the Chingu Slack channels
+- Logon to the devGaido Vultr console and enter the following commands:
+     - `docker-compose stop`
+     - `docker-compose build --no-cache`
+     - `docker-compose up`
+- Logon to the Cloudflare CDN and purge the cache
+- Bring up devGaido in your browser and test to ensure the changes were successfully promoted to production
+- Post the end of maintenance notification on Twitter and in the Chingu Slack channels
+- Commit the updated release notes
+-	Pull development branch to master
+-	Create new YouTube video describing changes and bug fixes included in the release
+
+
 ### Backup & Recovery 
 
 ![devGaido Backup Architecture](https://github.com/Chingu-cohorts/devgaido_devops/blob/refactor/repo/docs/devGaido%20Backup%20Process.png?raw=true)
