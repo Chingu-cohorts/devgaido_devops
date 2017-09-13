@@ -4,17 +4,21 @@
 # Script:  dglbackup.sh
 # Purpose: Create a "hot" backup of the devGaido Mongo database on the local
 #          application server.
-#          1. Verify that the devGaido backend is up and running
-#          2. Check for the presence of the /dglbackups directory and create
-#             if its not found.
-#          2. Run mongodump -o ../dglbackups to create a backup
+#
+# TODO: only backup catalog and devGaido
+# TODO: use 'docker exec -it <CONTAINER_NAME> /bin/bash' to execute in a 
+#       container. 
+# TODO: Look at container-to-container communication. E.g. have automation
+#       container fire this script from within the Mongo container. Look at 
+#       pid to share processes between containers --> 
+#          https://www.guidodiepen.nl/2017/04/accessing-container-contents-from-another-container/
 #------------------------------------------------------------------------------
 
 echo "Starting devGaido 'hot' backup..."
 
 echo "...Verifying that MongoDB instance is available..."
 # Try to display Mongo statistics to check if the instance is running.
-# '$?. will be 0 if the command succeeds.
+# '$?'. will be 0 if the command succeeds.
 echo "Verifying that MongoDB is running" > ./dgllog.txt
 mongo --eval "db.stats()" >> ./dgllog.txt
 RESULT=$?
