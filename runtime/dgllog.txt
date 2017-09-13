@@ -1,5 +1,7 @@
+
 Verifying that MongoDB is running
 MongoDB shell version: 3.0.3
 connecting to: test
 [object Object]
-Backup successfully completed. Return code= 0
+Backup successfully completed. Return code=0
+Ending devGaido 'hot' backup
