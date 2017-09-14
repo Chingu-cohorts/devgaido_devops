@@ -57,6 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# Backup Directory
+# Backup Directories & Log Files
 dgbackups/
+runtime/dglbackups
+runtime/dgllog.txt
 

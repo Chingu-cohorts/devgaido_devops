@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Common Bash functions
+source dglog.sh
+
 #==============================================================================
 # Script:  dglbackup.sh
 # Purpose: Create a "hot" backup of the devGaido Mongo database on the local
@@ -14,50 +17,11 @@
 #          https://www.guidodiepen.nl/2017/04/accessing-container-contents-from-another-container/
 #==============================================================================
 
-# Initialize the log file
-LOGFILE="./dgllog.txt"
-echo "" > $LOGFILE
-
-#------------------------------------------------------------------------------ 
-# Function: log
-# Purpose:  Write and informational message to the console and/or log file
-# Usage:    log <message> <target>
-#             where: 
-#                <message> - Informational text to be written
-#                <target>  - Defines where the text is to be written to
-#                            'log'     - write only to the log file
-#                            'console' - write only to the console
-#                            'both'    - write to both the log file AND console
-#             
-#------------------------------------------------------------------------------
-log () {
-  MESSAGE=$1
-  TARGET=${2:-console}
-  if [ "${MESSAGE:-0}" == 0 ]; then
-    echo "Aborting! Log message omitted. MESSAGE="$MESSAGE
-    exit 1
-  fi
-
-  case "$TARGET" in
-    "console")
-      echo "$MESSAGE"
-      ;;
-    "log")
-      echo "$MESSAGE">>$LOGFILE
-      ;;
-    "both")
-      echo "$MESSAGE"
-      echo "$MESSAGE">>$LOGFILE
-      ;;
-    *)
-      echo "Aborting! Invalid target specified. TARGET="$TARGET
-  esac
-}
-
 #------------------------------------------------------------------------------
 # Mainline Script Logic 
 #------------------------------------------------------------------------------ 
 
+initlog "./dgllog.txt"
 log "...Verifying that MongoDB instance is available..."
 # Try to display Mongo statistics to check if the instance is running.
 # '$?'. will be 0 if the command succeeds.

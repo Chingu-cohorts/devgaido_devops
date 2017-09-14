@@ -49,6 +49,7 @@ devGaido easier to deploy and manage.
 - Update release notes
 - Post the start of maintenance notification on Twitter and in the Chingu Slack channels
 - Logon to the devGaido Vultr console and enter the following commands:
+     - `sh dglbackup.sh`
      - `docker-compose stop`
      - `docker-compose build --no-cache`
      - `docker-compose up`
