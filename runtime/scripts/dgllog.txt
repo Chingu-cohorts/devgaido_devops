@@ -1,0 +1,22 @@
+2017-09-14T19:04:37: Starting devGaido Hot Backup...
+2017-09-14T19:04:37: ...Verifying that MongoDB instance is running...
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017
+MongoDB server version: 3.4.3
+{
+	"db" : "test",
+	"collections" : 0,
+	"views" : 0,
+	"objects" : 0,
+	"avgObjSize" : 0,
+	"dataSize" : 0,
+	"storageSize" : 0,
+	"numExtents" : 0,
+	"indexes" : 0,
+	"indexSize" : 0,
+	"fileSize" : 0,
+	"ok" : 1
+}
+2017-09-14T19:04:38: ...Backup of admin db successfully completed. Return code=0
+2017-09-14T19:04:38: ...Backup of devgaido db successfully completed. Return code=0
+2017-09-14T19:04:38: Ending devGaido 'hot' backup
