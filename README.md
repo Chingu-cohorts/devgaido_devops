@@ -19,14 +19,30 @@ DevOps services are defined as any function which externally supports the applic
 
 The devops services used to support the devGaido app include:
 
-| DevOps Service  | Directory | Purpose                           |
-|:----------------|:----------|:----------------------------------|
-| App runtime     | runtime   | Application runtime configuration |
-| Backup          | backup    | Backup scripts and configuration  |
-| Documentation   | docs      | App and DevOps documentation      |
+| DevOps Service    | Directory | Purpose                              |
+|:------------------|:----------|:-------------------------------------|
+| App runtime       | runtime   | Application runtime configuration    |
+| DevOps automation | runtime   | Automation scripts and configuration |
+| Documentation     | docs      | App and DevOps documentation         |
 
 Issues should be reported on the main GitHub repo for the [devGaido App](https://github.com/Chingu-cohorts/devgaido) sto consolidate all issues in one location. Similarly, wiki entries should be created on the main repo for the same reason.
 
+### Directory Structure
+
+The devGaido project folder is organized in the following manner:
+
+```
+/devgaido_devops - devGaido devops files including documentation, Docker files, and Bash scripts
+  /docs          - Application documentation files
+  /runtime       - Application runtime files
+    /dglbackups  - File backups. Excluded from Git to preserve security and confidentiality
+    /docker      - Docker configuration files
+      /dgapp     - devGaido application Docker configuration files
+      /dgops     - devGaido DevOps Docker configuration files
+  /scripts       - devGaido DevOps automation scripts
+  .gitignore     - Contains the list of directories and file to be excluded from Git
+  README.md      - This readme file
+```
 ### Application Runtime
 
 #### Built With
