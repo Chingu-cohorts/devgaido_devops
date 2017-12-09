@@ -47,7 +47,6 @@ The devGaido project folder is organized in the following manner:
 
 ![dgarch-image](https://docs.google.com/drawings/d/1fDlUxDIiFa8-CaQwQgiFVlJ3I6o2XHk70YmaVQPUezI/edit?usp=sharing)
 
-
 #### Built With
 
 devGaido's runtime architecture leverages the following to achieve performance,
@@ -94,4 +93,3 @@ All documentation files and diagrams are stored in this repo so as not to pollut
 
 [devgaido-image]: https://cdn.rawgit.com/Chingu-cohorts/devgaido/development/src/client/assets/img/devGaidoLogo.svg
 [devgaido-url]: https://github.com/Chingu-cohorts/devgaido
-
