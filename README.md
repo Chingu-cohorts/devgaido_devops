@@ -45,7 +45,8 @@ The devGaido project folder is organized in the following manner:
 ```
 ### Application Runtime
 
-![dgarch-image](https://docs.google.com/drawings/d/1fDlUxDIiFa8-CaQwQgiFVlJ3I6o2XHk70YmaVQPUezI/edit?usp=sharing)
+![devGaido Runtime Architecture](https://drive.google.com/file/d/1hghyc_43tPVzHtaFrEzNJIUzEI6qjyWJ/view?usp=sharing)
+
 
 #### Built With
 
