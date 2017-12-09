@@ -45,7 +45,7 @@ The devGaido project folder is organized in the following manner:
 ```
 ### Application Runtime
 
-![devGaido Runtime Architecture](https://drive.google.com/file/d/1hghyc_43tPVzHtaFrEzNJIUzEI6qjyWJ/view?usp=sharing)
+![devGaido Runtime Architecture](https://github.com/Chingu-cohorts/devgaido_devops/blob/development/docs/devGaido%20Runtime%20Architecture.png)
 
 
 #### Built With
